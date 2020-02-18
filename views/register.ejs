@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+<div class="template">
+  <div class="register">
+    Don't have a EJC TECHNOLOGY HQ account?
+    <router-link to="/register"></router-link>
+  </div>
+  <div class="login">
+    <img src="images/EJC TECHNOLOGY.svg" alt="" />
+    <h4>
+      Register into Ejc Technology HQ
+    </h4>
+
+    <form action="/register" method="POST">
+      <input type="email" name="username" placeholder=" Email" />
+      <input type="password" name="password" placeholder="password" />
+      <button>Register</button>
+
+      <router-link to="/register">Forgot your password ?</router-link>
+    </form>
+  </div>
+</div>
+<%- include('partials/footer') %>

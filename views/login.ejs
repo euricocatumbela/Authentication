@@ -1,5 +1,5 @@
 <%- include('partials/header') %>
-<div class="container">
+<div class="template">
   <div class="register">
     Don't have a EJC TECHNOLOGY HQ account?
     <router-link to="/register"></router-link>
@@ -10,8 +10,8 @@
       Sign into Ejc Technology HQ
     </h4>
 
-    <form action="/login" method="POST">
-      <input type="email" name="email" placeholder=" Email" />
+    <form action="/" method="POST">
+      <input type="email" name="username" placeholder=" Email" />
       <input type="password" name="password" placeholder="password" />
       <button>Sign In</button>
 
